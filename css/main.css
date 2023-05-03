@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  body {
+    font-family: "Vazir" !important;
+  }
+  p{
+    margin-bottom: 0px !important;
+  }
+  .logo-navbar{
+    width: 80px;
+  }
+  .phone-number{
+    color: #c7af49;
+  }
+  .navbar .active{
+    color: #c7af49 !important;
+  }
+  .section-1{
+    background: url(../img/img-section-1.jpg) no-repeat center center/cover;
+    height: 75vh;
+  }
+  .bi-circle-fill{
+    font-size: 12px;
+  }
+  .section-text-main{
+    width: 27.4rem;
+    margin-right: 12rem;
+  }
+  .section-text-main h3{
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+  .section-text-main p{
+    font-size: 1.3rem;
+  }
+.cards{
+    background-color: #c7af49;
+    margin: 7rem 5rem;
+}
+.card{
+    color: white;
+    border-radius: 0 !important;
+    border-color: none;
+    border: none;
+    height: 15rem;
+}
+.card-4{
+    border: 3px hidden !important;
+    border-top-left-radius:10px !important ;
+}
+.card-8{
+    border: 3px hidden !important;
+    border-bottom-left-radius:10px !important ;
+}
+.card-5{
+    border: 3px hidden !important;
+    border-bottom-right-radius:10px !important ;
+}
+
+/* .card :nth-child(odd){
+    background-color: #c7af49;
+    color: ;
+} */
+.color-primary{
+    background-color: #c7af49;
+    
+}
+.color-secondery{
+    background-color: #1b1b1b;
+    
+}
+.hidden{
+    color: black;
+    background-color: white !important;
+}
+.section-3{
+    background: #1b1b1b;
+    padding: 2rem;
+}
+.container-3{
+    max-width: 1000px;
+}
+.container-3 h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1.8rem 0 .8rem 0;
+}
+.container-3 .card{
+    border:3px !important;
+    border-radius: 10px !important;
+    height: 322px;
+}
+.section-3 ul li a{
+    color: white;
+    text-decoration: none;
+    margin: .8rem;
+}
+.section-3 ul{
+    margin-bottom: 1rem;
+}
+.section-3 .container-3 ul li a.active{
+    padding: 1rem;
+    background-color: #c7af49 !important;
+    border-radius: 10px !important;
+}
